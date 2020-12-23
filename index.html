@@ -15,8 +15,8 @@
 		<div class="formulario">
 			<form>
 				<input type="email" name="email" id="email" placeholder="Entre com seu e-mail" required="required" />
-				<input type="password" name="password" id="password" placeholder="Digite sua senha super secreta" required="required" />
-				<input type="button" onclick="iniciarSesion()" class="btn btn-primary btn-block btn-large" value="Entrar">
+				<input type="password" name="password" onchange="validatePass()" id="password" placeholder="Digite sua senha supersecreta" required="required" />
+				<btn type="button" onclick="iniciarSesion()" class="btn btn-disabled btn-block btn-large" id="myBtn">Entrar</btn>
 			</form>
 		</div>	
 	</div>
